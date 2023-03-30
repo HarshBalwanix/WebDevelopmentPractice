@@ -1,0 +1,58 @@
+<!-- 
+    Elemetns 
+           Select box
+                opt group 
+                option
+
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form elements </title>
+ </head>
+ <body>
+    <h1>Enquiry</h1>
+    <form action="">
+       <fieldset>
+        <legend>Enquiry</legend>
+        Name: <input type="text" placeholder="Enter your name " />
+        <br>
+        <br>
+        Address: <textarea placeholder="Enter your Address" ></textarea>
+        <br>
+        <br>
+        Gender: <input type="radio" value="m" name="gender"> Male 
+         <input type="radio" value="f" name="gender"> Female 
+        <br>
+        <br>
+        <!-- Select box -->
+        Country: 
+        <select name="" id="">
+            <optgroup label="ASIA">
+                <option value="india">India</option>
+                <option value="SL">Sri Lanka</option>
+
+            </optgroup>
+            <option value="USA">USA</option>
+        </select>
+        <br>
+        <br>
+        <!-- Checkbox -->
+        Hobbies: <input type="checkbox" value="hobbies[]"> Dancing 
+         <input type="checkbox" value="hobbies[]"> Singing 
+         <input type="checkbox" value="hobbies[]"> Painting 
+         <br>
+         <br>
+         <!-- File Input  -->
+         Send query Screenshot: <input type="file" name="image" />
+         <br>
+         <br>
+        <input type="submit" />
+        <input type="reset" />
+    </fieldset> 
+    </form>
+ </body>
+ </html>

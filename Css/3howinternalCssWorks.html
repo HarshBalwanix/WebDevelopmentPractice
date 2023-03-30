@@ -1,0 +1,67 @@
+<!-- Css properties
+    width in px or %
+    height in px or %
+    background color colr name or code
+    float left right.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivTag with CSS</title>
+    <style>
+        .main{
+            width :500px;
+            height :500px;
+            background-color: red;
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: yellow;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color: blue;
+        }
+        .col1{
+            width:250px;
+            height:250px;
+            background-color: blueviolet;
+            float:left;
+        }
+        .col2
+        {
+            width:250px;
+            height:250px;
+            background-color: burlywood;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class=" main"> <!--Main div-->
+        <div id="parent-row-1"><!--Parent row 1-->
+            <div class="col1"> <!--co1 -->
+                Home
+            </div>
+            <div class="col2"> <!--co2 -->
+                About
+            </div>
+        </div>
+        <hr>
+        <div id="parent-row-2"><!--Parent row 2-->
+            <div class="col1"> <!--co1 -->
+                Gallery 
+            </div>
+            <div class="col2"> <!--co2 -->
+                Contact Us
+            </div>
+        </div>
+        
+    </div>   
+</body>
+</html>
