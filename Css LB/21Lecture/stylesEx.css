@@ -1,0 +1,37 @@
+.wrapper
+{
+    height: 500px;
+    width: 500px;
+    background-color: aqua
+}
+.text1
+{
+    position: relative;
+
+
+}
+.text2
+{
+    position: relative;
+    left: 460px;
+    bottom: 20px;
+
+}
+.text3
+{
+    
+    padding: 250px 250px;
+    
+}
+.text4
+{
+    position: absolute;
+    top: 490px;
+}
+.text5
+{
+    position: relative;
+    
+    left: 472;
+
+}
