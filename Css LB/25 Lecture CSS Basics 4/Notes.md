@@ -13,3 +13,4 @@ display:grid;
 -> grid-column-end
 -> grid-row-start
 -> grid-row-end
+Shorthand Properties: grid-row,grid-column,
