@@ -37,5 +37,10 @@ example- gtc:repeat(3,1fr);
 - > Justify-self
                 -> apply on child or individual
 - > Align-self
-- > Place-items
+- > Place-items 
+              short hand notation for justify and align items
 - > Place-self
+              short hand notation for justify and align self
+
+## Blog website layout
+## 

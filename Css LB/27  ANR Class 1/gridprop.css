@@ -16,6 +16,7 @@
     align-items: end;
     align-items: baseline;
     align-items: center;  */
+    place-content: center;
 }
 
 .box
