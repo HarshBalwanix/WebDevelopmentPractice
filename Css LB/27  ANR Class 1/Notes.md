@@ -43,4 +43,8 @@ example- gtc:repeat(3,1fr);
               short hand notation for justify and align self
 
 ## Blog website layout
-## 
+##  Media Queries:
+ -> using breakpoint we handle different screensize 
+
+## Nested Grids 
+ -> grid insdie a grid
