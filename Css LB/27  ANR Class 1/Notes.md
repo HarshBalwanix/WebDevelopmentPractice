@@ -29,10 +29,13 @@ example- gtc:repeat(3,1fr);
 
 ## Grid Properties
 - > Justify-Content
+                   -> Horizontal axis 
 - > Align-Content
 - > Justify-items
 - > Align-items
+                -> vertical axis
 - > Justify-self
+                -> apply on child or individual
 - > Align-self
 - > Place-items
 - > Place-self
