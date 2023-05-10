@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+    <div id="container">        
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-evenly">
         
@@ -58,10 +59,36 @@
 
     <button class="py-3 px-3 font-mullish text-white border-lightBlue border rounded text-sm font-bold">Log in</button>                
 
-    <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500">Sign Up</button>
+    <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500">Sign Up <span class=""><svg  viewBox="0 0 24 24" focusable="false" class="w-[1rem] h-[1rem] inline-block"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></span></button>
 </div>
 
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-deepBlue">
+     <div class="flex justify-between w-10/12 max-w-[1080px] flex-row items-center mx-auto ">
+        <!-- left part -->
+        <div class=" space-y-8" >
+        <h1 class="font-mullish text-white font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+        <div class="w-6 h-1 bg-greenLight"></div>
+        <p class="font-mullish text-[18px] text-grayText leading-7">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+        <button class="bg-lightBlue text-white rounded-md font-mullish hover:bg-lightBlue500 transition-all duration-200 py-[18px] px-[14px] min-w-[2.5rem] h-auto">Sign Up Now<svg
+            viewBox="0 0 24 24"
+            focusable="false" 
+            class="w-[1rem] h-[1rem] inline-block"
+            data-testid="right-icon">
+            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg></button>
+        </div>
+        <div class="max-w-[680px]">
+        <!-- right part -->
+        <img src="./web_images/hero-illustration.jpg" alt="">
+        </div>
+     </div>
+     <!-- shape part -->
+     <div> <img src="./web_images/hero-shape.svg" alt=""> </div>
+    </section>
+</div> 
 </body>
 </html>
